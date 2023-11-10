@@ -1,0 +1,27 @@
+POST http://localhost:3000/videos
+Content-Type: application/json
+
+{
+    "title": "Video node",
+    "description": "Primeiro video",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:3000/videos?search=teste
+
+###
+
+PUT http://localhost:3000/videos/40879c45-aedc-4c9c-8cc2-eb874b1c2c73
+Content-Type: application/json
+
+{
+    "title": "Video teste ATUALIZACAO",
+    "description": "ATUALIZACAO OK",
+    "duration": 180
+}
+
+###
+
+DELETE http://localhost:3000/videos/40879c45-aedc-4c9c-8cc2-eb874b1c2c73
