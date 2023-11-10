@@ -1,4 +1,4 @@
-POST http://localhost:3000/videos
+POST https://node-api-fastify-s45a.onrender.com/videos
 Content-Type: application/json
 
 {
@@ -9,11 +9,11 @@ Content-Type: application/json
 
 ###
 
-GET http://localhost:3000/videos?search=teste
+GET https://node-api-fastify-s45a.onrender.com/videos?search=teste
 
 ###
 
-PUT http://localhost:3000/videos/40879c45-aedc-4c9c-8cc2-eb874b1c2c73
+PUT https://node-api-fastify-s45a.onrender.com/videos/40879c45-aedc-4c9c-8cc2-eb874b1c2c73
 Content-Type: application/json
 
 {
@@ -24,4 +24,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/videos/40879c45-aedc-4c9c-8cc2-eb874b1c2c73
+DELETE https://node-api-fastify-s45a.onrender.com/videos/40879c45-aedc-4c9c-8cc2-eb874b1c2c73
